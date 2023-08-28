@@ -22,11 +22,11 @@ body {
 }
 
 .main-bg {
-    background-color: #b19442;
+    background-color: #ba9225;
 }
 
 .main-text {
-    color: #b19442;
+    color: #ba9225;
 }
 
 .second-bg {
@@ -74,7 +74,7 @@ a {
 }
 
 a:hover {
-    color: #b19442;
+    color: #ba9225;
 }
 
 .fs-7 {
@@ -110,6 +110,13 @@ a:hover {
 .h-24 {
     height: 24px;
 }
+.w-32 {
+    width: 32px;
+}
+
+.h-32 {
+    height: 32px;
+}
 .w-54 {
     width: 54px;
 }
@@ -144,7 +151,7 @@ a:hover {
 }
 
 .border-main {
-    border: 1px solid #b19442;
+    border: 1px solid #ba9225;
 }
 
 .border-black {
@@ -156,7 +163,7 @@ a:hover {
 }
 
 .socials a:hover {
-    color: #b19442 !important;
+    color: #ba9225 !important;
 }
 
 .special-hover {
@@ -262,7 +269,7 @@ a:hover {
 }
 
 .breadcrumb-item.active {
-    color: #b19442;
+    color: #ba9225;
 }
 
 .pagination a {
@@ -272,7 +279,7 @@ a:hover {
 .pagination a.active,
 .pagination a:hover {
     background-color: black;
-    color: #b19442;
+    color: #ba9225;
 }
 
 .focus-none:focus {
@@ -309,7 +316,7 @@ header a {
 header a:hover,
 header a.active,
 .teamSocials a:hover {
-    color: #b19442 !important;
+    color: #ba9225 !important;
 }
 
 header ul li:hover ul {
@@ -365,12 +372,12 @@ header ul ul::before {
 }
 
 .add-list:hover {
-    background-color: #b19442 !important;
-    border-color: #b19442 !important;
+    background-color: #ba9225 !important;
+    border-color: #ba9225 !important;
 }
 
 .add-list svg {
-    color: #b19442;
+    color: #ba9225;
 }
 
 .add-list:hover svg {
@@ -491,7 +498,7 @@ header ul ul::before {
     }
 
     header .menu>li a.mobileactive {
-        color: #b19442 !important;
+        color: #ba9225 !important;
     }
 
     header ul ul::before {
