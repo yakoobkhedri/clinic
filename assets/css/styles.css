@@ -1,20 +1,20 @@
 @font-face {
-    font-family: "parastoo-Regular";
-    src: url('../fonts/web/Farsi-Digits-Without-Latin/Parastoo-FD-WOL.ttf') format("truetype");
+    font-family: "yekan-Regular";
+    src: url('../fonts/Woff/IRANYekanXFaNum-Regular.woff') format("Woff");
 }
 
 @font-face {
-    font-family: "parastoo-Bold";
-    src: url('../fonts/web/Farsi-Digits-Without-Latin/Parastoo-Bold-FD-WOL.ttf') format("truetype");
+    font-family: "yekan-Bold";
+    src: url('../fonts/Woff/IRANYekanXFaNum-Bold.woff') format("woff");
 }
 
 body {
-    font-family: "parastoo-Regular";
+    font-family: "yekan-Regular";
     user-select: none;
 }
 
 .font-bold {
-    font-family: "parastoo-Bold";
+    font-family: "yekan-Bold";
 }
 
 .bg-black {
@@ -470,7 +470,7 @@ header ul ul::before {
 
     header .menu {
         position: fixed;
-        background: black;
+        background: #172944;
         top: 0;
         bottom: 0;
         right: -400px;

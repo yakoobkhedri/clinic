@@ -1,7 +1,7 @@
 // mobile menu
 
 let menu=document.querySelector('header .menu');
-let li=Array.from(document.querySelectorAll('header .menu > li'));
+let li=Array.from(document.querySelectorAll('li.dropdownMenu'));
 
 document.getElementById('hamicon').addEventListener('click',function () {
   menu.classList.add('active');
