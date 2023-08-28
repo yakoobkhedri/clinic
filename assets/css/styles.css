@@ -22,11 +22,11 @@ body {
 }
 
 .main-bg {
-    background-color: #ad9642;
+    background-color: #b19442;
 }
 
 .main-text {
-    color: #ad9642;
+    color: #b19442;
 }
 
 .second-bg {
@@ -74,7 +74,7 @@ a {
 }
 
 a:hover {
-    color: #ad9642;
+    color: #b19442;
 }
 
 .fs-7 {
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .border-main {
-    border: 1px solid #ad9642;
+    border: 1px solid #b19442;
 }
 
 .border-black {
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .socials a:hover {
-    color: #ad9642 !important;
+    color: #b19442 !important;
 }
 
 .special-hover {
@@ -262,7 +262,7 @@ a:hover {
 }
 
 .breadcrumb-item.active {
-    color: #ad9642;
+    color: #b19442;
 }
 
 .pagination a {
@@ -272,7 +272,7 @@ a:hover {
 .pagination a.active,
 .pagination a:hover {
     background-color: black;
-    color: #ad9642;
+    color: #b19442;
 }
 
 .focus-none:focus {
@@ -293,6 +293,9 @@ header {
     font-size: 14px;
     height: 83px;
     background-color: #172944;
+    /* background-image: url('../img/header.jpg');
+    background-position: center;
+    background-size: cover; */
 }
 
 header #menuOverlay {
@@ -306,7 +309,7 @@ header a {
 header a:hover,
 header a.active,
 .teamSocials a:hover {
-    color: #ad9642 !important;
+    color: #b19442 !important;
 }
 
 header ul li:hover ul {
@@ -362,12 +365,12 @@ header ul ul::before {
 }
 
 .add-list:hover {
-    background-color: #ad9642 !important;
-    border-color: #ad9642 !important;
+    background-color: #b19442 !important;
+    border-color: #b19442 !important;
 }
 
 .add-list svg {
-    color: #ad9642;
+    color: #b19442;
 }
 
 .add-list:hover svg {
@@ -423,6 +426,17 @@ header ul ul::before {
     z-index: 3;
 }
 
+/* footer */
+.bg-footer{
+    background-image: url('../img/footer-bg2.jpg.webp');
+    background-position: center;
+    background-size: cover;
+}
+.bg-footer2{
+    background-image: url('../img/footer-bg1.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
 /* responsive */
 @media only screen and (max-width:1400px) {}
@@ -477,7 +491,7 @@ header ul ul::before {
     }
 
     header .menu>li a.mobileactive {
-        color: #ad9642 !important;
+        color: #b19442 !important;
     }
 
     header ul ul::before {
