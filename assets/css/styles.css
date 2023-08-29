@@ -1,20 +1,20 @@
 @font-face {
-    font-family: "yekan-Regular";
-    src: url('../fonts/Woff/IRANYekanXFaNum-Regular.woff') format("Woff");
+    font-family: "iransans-Regular";
+    src: url('../fonts/IRANSans-Medium\ [@ClubEdits].ttf') format("truetype");
 }
 
 @font-face {
-    font-family: "yekan-Bold";
-    src: url('../fonts/Woff/IRANYekanXFaNum-Bold.woff') format("woff");
+    font-family: "iransans-Bold";
+    src: url('../fonts/IRANSans-Bold\ [@ClubEdits].ttf') format("truetype");
 }
 
 body {
-    font-family: "yekan-Regular";
+    font-family: "iransans-Regular";
     user-select: none;
 }
 
 .font-bold {
-    font-family: "yekan-Bold";
+    font-family: "iransans-Bold";
 }
 
 .bg-black {
@@ -22,11 +22,14 @@ body {
 }
 
 .main-bg {
-    background-color: #ba9225;
+    background-color: #c5b173;
+}
+.main-bg2{
+    background-color: #ebdbb0;
 }
 
 .main-text {
-    color: #ba9225;
+    color: #c5b173;
 }
 
 .second-bg {
@@ -38,19 +41,21 @@ body {
 }
 
 .third-bg {
-    background-color: #5b072c;
+    background-color: #070a13;
 }
 
 .third-text {
-    color: #5b072c;
+    color: #070a13;
 }
 
 .text-black {
     color: black;
 }
-.text-gray{
+
+.text-gray {
     color: lightgray;
 }
+
 .bg-gray {
     background-color: #eeeff0;
 }
@@ -74,7 +79,7 @@ a {
 }
 
 a:hover {
-    color: #ba9225;
+    color: #c5b173;
 }
 
 .fs-7 {
@@ -92,9 +97,11 @@ a:hover {
 .transition {
     transition: all .4s;
 }
+
 .w-220 {
     width: 220px !important;
 }
+
 .w-120 {
     width: 120px !important;
 }
@@ -110,6 +117,7 @@ a:hover {
 .h-24 {
     height: 24px;
 }
+
 .w-32 {
     width: 32px;
 }
@@ -117,6 +125,7 @@ a:hover {
 .h-32 {
     height: 32px;
 }
+
 .w-54 {
     width: 54px;
 }
@@ -124,12 +133,15 @@ a:hover {
 .h-54 {
     height: 54px;
 }
-.w-99{
+
+.w-99 {
     width: 99px;
 }
-.h-99{
+
+.h-99 {
     height: 99px;
 }
+
 .w-88 {
     width: 88px;
 }
@@ -151,9 +163,11 @@ a:hover {
 }
 
 .border-main {
-    border: 1px solid #ba9225;
+    border: 1px solid #1e2125;
 }
-
+.border-main-dot {
+    border: 2px dotted #c5b173;
+}
 .border-black {
     border: 7px solid black;
 }
@@ -163,7 +177,7 @@ a:hover {
 }
 
 .socials a:hover {
-    color: #ba9225 !important;
+    color: #c5b173 !important;
 }
 
 .special-hover {
@@ -200,18 +214,23 @@ a:hover {
 .bottom-268 {
     bottom: -268px;
 }
-.top-37{
+
+.top-37 {
     top: 37px;
 }
-.top-70 {
-    top: -70px;
+
+.top-20 {
+    top: -20px;
 }
+
 .right-86 {
     right: 86px;
 }
-.rotate-y-180{
+
+.rotate-y-180 {
     transform: rotateY(180deg);
 }
+
 .mt-276 {
     margin-top: 276px;
 }
@@ -269,7 +288,7 @@ a:hover {
 }
 
 .breadcrumb-item.active {
-    color: #ba9225;
+    color: #c5b173;
 }
 
 .pagination a {
@@ -279,20 +298,66 @@ a:hover {
 .pagination a.active,
 .pagination a:hover {
     background-color: black;
-    color: #ba9225;
+    color: #c5b173;
 }
 
 .focus-none:focus {
     box-shadow: none;
 }
-.tag:hover{
+
+.tag:hover {
     background-color: #ffd870;
     color: black;
+}
+footer img[alt='company'] {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+.services a:hover svg{
+    animation-name: wobble;
+    animation-duration: 1.3s;
+    animation-iteration-count: 2;
+}
+
+@keyframes wobble {
+    0% {
+        transform: skew(0);
+    }
+
+    25% {
+        transform: skew(8deg);
+    }
+    50% {
+        transform: skew(0);
+    }
+    75% {
+        transform: skew(-8deg);
+    }
+    100% {
+        transform: skew(0);
+    }
 }
 /* header */
 img[alt='logo'] {
     width: 151px;
 }
+
 header {
     padding: 25px 0;
     position: relative;
@@ -314,8 +379,8 @@ header a {
 }
 
 header a:hover,
-header a.active,footer a:hover,footer a:hover p {
-    color: #ba9225 !important;
+header a.active {
+    color: #c5b173 !important;
 }
 
 header ul li:hover ul {
@@ -339,7 +404,7 @@ header ul ul div {
 }
 
 header ul ul a {
-    color: #ba9225 !important;
+    color: #c5b173 !important;
     width: 230px;
 }
 
@@ -352,7 +417,7 @@ header ul ul a:hover {
 }
 
 header ul ul::before {
-    background-color: #ba9225;
+    background-color: #c5b173;
     content: "";
     width: 18px;
     height: 18px;
@@ -371,21 +436,23 @@ header ul ul::before {
 }
 
 .add-list:hover {
-    background-color: #ba9225 !important;
-    border-color: #ba9225 !important;
+    background-color: #c5b173 !important;
+    border-color: #c5b173 !important;
 }
 
 .add-list svg {
-    color: #ba9225;
+    color: #c5b173;
 }
 
 .add-list:hover svg {
     color: white !important;
 }
-.socials a:hover{
+
+.socials a:hover {
     transform: translateY(-3px);
     opacity: 70%;
 }
+
 /* banner */
 .vedio-banner {
     position: relative;
@@ -436,10 +503,25 @@ header ul ul::before {
 }
 
 /* footer */
-footer{
+footer {
     background-image: url('../img/footer-bg.jpg');
-    background-position: center;
+    background-position: center 0px;
     background-size: cover;
+    position: relative;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #050505;
+    opacity: 0.5;
+}
+footer a:hover,footer a:hover p,footer a:hover svg{
+    color: white!important;
+}
+footer .socials a:hover svg{
+    color: black!important;
 }
 
 /* responsive */
@@ -459,6 +541,7 @@ footer{
         max-height: 0;
         transition: all .4s;
         display: block;
+        z-index: 9;
     }
 
     header #menuOverlay.active {
@@ -475,6 +558,7 @@ footer{
         line-height: 51px;
         overflow-y: auto;
         transition: all .4s;
+        z-index: 9;
     }
 
     header .menu.active {
@@ -495,7 +579,7 @@ footer{
     }
 
     header .menu>li a.mobileactive {
-        color: #ba9225 !important;
+        color: #c5b173 !important;
     }
 
     header ul ul::before {
@@ -530,14 +614,13 @@ footer{
     header ul ul a {
         color: white !important;
     }
+
     .mt-276 {
         margin-top: 0;
     }
 }
 
-@media only screen and (max-width:992px) {
-   
-}
+@media only screen and (max-width:992px) {}
 
 @media only screen and (max-width:768px) {
     .vedio-banner {
@@ -546,9 +629,10 @@ footer{
 }
 
 @media only screen and (max-width:576px) {
-   
+    footer {
+        background-image: none;
+        background-color: black;
+    }
 }
 
-@media only screen and (max-width:400px) {
- 
-}
+@media only screen and (max-width:400px) {}
