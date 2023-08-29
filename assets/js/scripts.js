@@ -64,22 +64,11 @@ var menuSwiper = new Swiper(".brands", {
     prevEl: ".swiper-button-prev",
 },
 });
-var menuSwiper = new Swiper(".testimonials", {
+var menuSwiper = new Swiper(".portfolio", {
   loop: true,
   autoplay: true,
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween:50,
-  breakpoints:{
-    1200:{
-      slidesPerView:2
-    },
-    768:{
-      slidesPerView:1
-    },
-    576:{
-      slidesPerView:1
-    }
-  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
