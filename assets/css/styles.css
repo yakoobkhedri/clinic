@@ -105,7 +105,9 @@ a:hover {
 .w-120 {
     width: 120px !important;
 }
-
+.w-140 {
+    width: 140px !important;
+}
 .h-43 {
     height: 43px !important;
 }
@@ -501,12 +503,19 @@ header ul ul::before {
     opacity: 0.6;
     z-index: 3;
 }
+/* about */
+.bg-about{
+    background-image: url('../img/plainblack34-1024x576.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
 /* footer */
 footer {
     background-image: url('../img/footer-bg.jpg');
-    background-position: center 0px;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -515,7 +524,7 @@ footer::before {
     position: absolute;
     inset: 0;
     background-color: #050505;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 footer a:hover,footer a:hover p,footer a:hover svg{
     color: white!important;
