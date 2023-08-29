@@ -508,6 +508,7 @@ header ul ul::before {
     background-image: url('../img/plainblack34-1024x576.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* footer */
