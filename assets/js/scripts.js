@@ -102,3 +102,18 @@ ScrollReveal().reveal('.left', {
   delay: 500,
   easing: 'ease-out'
 });
+ScrollReveal().reveal('.bottom', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '100px',
+  delay: 500,
+  easing: 'ease-out'
+});
+
+ScrollReveal().reveal('.right', {
+  duration: 2000,
+  origin: 'right',
+  distance: '100px',
+  delay: 500,
+  easing: 'ease-out'
+});
