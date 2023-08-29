@@ -436,27 +436,8 @@ header ul ul::before {
 }
 
 /* footer */
-footer::before{
-    content: url('../img/footer-symbol1.png');
-    position: absolute;
-    left: 0;
-    top: -55px;
-    z-index: -1;
-}
-.bg-footer{
-    background-image: url('../img/footer-bg2.jpg.webp');
-    background-position: center;
-    background-size: cover;
-}
-.bg-footer::before{
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-color: #1e2125b8;
-  z-index: 0;
-}
-.bg-footer2{
-    background-image: url('../img/footer-bg1.jpg');
+footer{
+    background-image: url('../img/footer-bg.jpg');
     background-position: center;
     background-size: cover;
 }
