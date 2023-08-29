@@ -1,11 +1,11 @@
 @font-face {
     font-family: "iransans-Regular";
-    src: url('../fonts/IRANSans-Medium\ [@ClubEdits].ttf') format("truetype");
+    src: url('../fonts/IRANSansXFaNum-Regular.woff') format("woff");
 }
 
 @font-face {
     font-family: "iransans-Bold";
-    src: url('../fonts/IRANSans-Bold\ [@ClubEdits].ttf') format("truetype");
+    src: url('../fonts/IRANSansXFaNum-Bold.woff') format("woff");
 }
 
 body {
@@ -27,7 +27,9 @@ body {
 .main-bg2{
     background-color: #ebdbb0;
 }
-
+.main-bg3{
+    background-color: #b09338;
+}
 .main-text {
     color: #c5b173;
 }
@@ -510,7 +512,6 @@ header ul ul::before {
     background-size: cover;
     background-attachment: fixed;
 }
-
 /* footer */
 footer {
     background-image: url('../img/footer-bg.jpg');

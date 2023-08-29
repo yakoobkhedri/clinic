@@ -29,11 +29,11 @@ Fancybox.bind("[data-fancybox]", {
 var menuSwiper = new Swiper(".team", {
   loop: true,
   autoplay: true,
-  slidesPerView: 3,
+  slidesPerView: 4,
   spaceBetween:40,
   breakpoints:{
     1200:{
-      slidesPerView:2
+      slidesPerView:3
     },
     992:{
       slidesPerView:2
