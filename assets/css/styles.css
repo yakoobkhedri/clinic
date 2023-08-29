@@ -30,11 +30,11 @@ body {
 }
 
 .second-bg {
-    background-color: #16447d;
+    background-color: #1e2125;
 }
 
 .second-text {
-    color: #16447d;
+    color: #1e2125;
 }
 
 .third-bg {
@@ -70,7 +70,7 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
-    transition: all .4s;
+    transition: all .2s;
 }
 
 a:hover {
@@ -291,7 +291,7 @@ a:hover {
 }
 /* header */
 img[alt='logo'] {
-    width: 170px;
+    width: 151px;
 }
 header {
     padding: 25px 0;
@@ -299,7 +299,7 @@ header {
     z-index: 99;
     font-size: 14px;
     height: 83px;
-    background-color: #172944;
+    background-color: #1e2125;
     /* background-image: url('../img/header.jpg');
     background-position: center;
     background-size: cover; */
@@ -314,8 +314,7 @@ header a {
 }
 
 header a:hover,
-header a.active,
-.teamSocials a:hover,footer a:hover,footer a:hover p {
+header a.active,footer a:hover,footer a:hover p {
     color: #ba9225 !important;
 }
 
@@ -340,9 +339,8 @@ header ul ul div {
 }
 
 header ul ul a {
-    color: #333c56 !important;
+    color: #ba9225 !important;
     width: 230px;
-    border-bottom: 1px solid #dee2e6;
 }
 
 header ul ul li:last-child a {
@@ -354,7 +352,7 @@ header ul ul a:hover {
 }
 
 header ul ul::before {
-    background-color: #ffffff;
+    background-color: #ba9225;
     content: "";
     width: 18px;
     height: 18px;
@@ -369,6 +367,7 @@ header ul ul::before {
     transition: all 0.2s ease 0s;
     -webkit-transition: all 0.2s ease 0s;
     -moz-transition: all 0.2s ease 0s;
+    z-index: 0;
 }
 
 .add-list:hover {
@@ -383,7 +382,10 @@ header ul ul::before {
 .add-list:hover svg {
     color: white !important;
 }
-
+.socials a:hover{
+    transform: translateY(-3px);
+    opacity: 70%;
+}
 /* banner */
 .vedio-banner {
     position: relative;
@@ -450,7 +452,7 @@ footer::before{
   content: '';
   position: absolute;
   inset: 0;
-  background-color: #172944b8;
+  background-color: #1e2125b8;
   z-index: 0;
 }
 .bg-footer2{
@@ -484,7 +486,7 @@ footer::before{
 
     header .menu {
         position: fixed;
-        background: #172944;
+        background: #1e2125;
         top: 0;
         bottom: 0;
         right: -400px;
